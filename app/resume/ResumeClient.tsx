@@ -4,7 +4,7 @@ import Link from 'next/link'
 const skills = {
   Frontend: 'React · Next.js · TypeScript · Tailwind CSS · Framer Motion · HTML/CSS',
   'Backend & AI': 'FastAPI · Python · OpenCV · NumPy · Docker · REST APIs',
-  'E-commerce & SaaS': 'Daraz · Shopify · Stripe · Supabase · Cloudinary · Clerk',
+  'E-commerce & SaaS': 'MongoDB · Mongoose · JWT · Cloudinary · Supabase · Clerk · Vercel',
   Tools: 'Git · GitHub · Figma · Vercel · Railway · VS Code',
 }
 
@@ -21,26 +21,37 @@ const projects = [
       'Eliminates NPR 500–2000 photography cost per batch. 98% success rate across 260+ beta images.',
     ],
   },
+  {
+    title: 'Mirrormandu',
+    type: 'Next.js · MongoDB · Full-Stack E-commerce',
+    tech: 'Next.js · TypeScript · MongoDB · Mongoose · Tailwind CSS · Cloudinary · JWT · REST API · Vercel',
+    year: '2025',
+    bullets: [
+      "Full-stack e-commerce platform for a Nepali mirror brand — customers browse products, submit custom mirror inquiries, manage a wishlist, and check out with coupon support.",
+      'Custom admin dashboard covering full business operations: products, categories, orders, reviews, banners, and coupons — with Cloudinary image uploads and JWT-secured authentication.',
+      'Replaced entirely manual order tracking with a structured order management system; custom inquiry flow converts browsing visitors into direct leads.',
+    ],
+  },
 ]
 
 const experience = [
   {
     role: 'Frontend Developer',
-    company: 'Add Company Name',
-    period: 'Month Year – Present',
+    company: 'Zipa',
+    period: '2024 – Present',
     bullets: [
-      'Add your key achievement with a measurable result here.',
-      'Add another achievement — use numbers where possible (e.g., reduced load time by 40%).',
-      'Add a third responsibility or accomplishment.',
+      'Building and maintaining the frontend for Zipa Image Forge — an AI-powered product image processing tool serving Nepal\'s e-commerce vendors.',
+      'Developed the full vendor-facing UI: upload flow, image pipeline status, and Daraz/Instagram export — achieving under 60-second end-to-end processing.',
+      'Integrated Clerk authentication, Supabase storage, and Cloudinary delivery into a cohesive Next.js + FastAPI product.',
     ],
   },
 ]
 
 const education = [
   {
-    degree: 'Add Your Degree / Certification',
-    institution: 'Add Institution Name',
-    year: 'Year',
+    degree: 'Bachelor of Computer Applications (BCA)',
+    institution: 'Currently Pursuing',
+    year: 'In Progress',
   },
 ]
 
@@ -81,7 +92,6 @@ export default function ResumeClient() {
                 {[
                   { label: 'milangopali98@gmail.com', href: 'mailto:milangopali98@gmail.com' },
                   { label: 'github.com/MANGOpali', href: 'https://github.com/MANGOpali' },
-                  { label: 'linkedin.com/in/milan-gopali', href: 'https://linkedin.com/in/milan-gopali' },
                   { label: 'milangopali.com.np', href: 'https://milangopali.com.np' },
                 ].map((item) => (
                   <a

@@ -6,9 +6,7 @@ type Status = 'idle' | 'loading' | 'success' | 'error'
 
 const socials = [
   { label: 'GitHub', href: 'https://github.com/MANGOpali' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/milan-gopali' },
-  { label: 'Twitter', href: 'https://twitter.com/milangopali' },
-]
+  ]
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })

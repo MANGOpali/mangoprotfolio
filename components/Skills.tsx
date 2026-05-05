@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const skills: Record<string, string[]> = {
   Frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'HTML / CSS'],
-  'E-commerce': ['Shopify', 'WooCommerce', 'Stripe', 'Cart & Checkout UX', 'Product Page Optimization'],
+  'E-commerce': ['Zipa','Cart & Checkout UX', 'Product Page Optimization'],
   'Tools & Workflow': ['Git & GitHub', 'Figma', 'Vercel', 'VS Code', 'REST APIs'],
 }
 

@@ -22,6 +22,25 @@ const projects = [
     ],
     links: { live: 'https://zipastudio.com', github: 'https://github.com/MANGOpali' },
   },
+  {
+    number: '02',
+    title: 'Mirrormandu',
+    category: 'E-commerce Tool · Next.js + MongoDB',
+    problem:
+      "Nepal's premium mirror market had no dedicated online storefront — customers couldn't browse, compare, or inquire about custom mirrors without calling directly. Vendors managed orders manually with no admin visibility.",
+    solution:
+      "Full-stack e-commerce platform built from scratch for a Nepali mirror brand. Customers browse a product catalog, submit custom mirror inquiries, manage a wishlist, and check out with coupon support. Admins manage products, categories, orders, reviews, banners, and coupons through a custom dashboard — with Cloudinary image uploads and JWT-secured authentication throughout.",
+    outcomes: [
+      'Replaced manual order tracking with a full order management system.',
+      'Custom mirror inquiry flow converts browsing visitors into leads directly.',
+      'Admin dashboard covers full business operations: inventory, coupons, reviews, and banners.',
+    ],
+    tech: [
+      'Next.js', 'TypeScript', 'MongoDB', 'Mongoose', 'Tailwind CSS',
+      'Cloudinary', 'JWT', 'REST API', 'Vercel',
+    ],
+    links: { live: 'https://mirrormandu.vercel.app', github: 'https://github.com/MANGOpali' },
+  },
 ]
 
 export default function Projects() {
